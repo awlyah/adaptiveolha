@@ -1,0 +1,666 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Verdana, sans-serif;
+  font-size: 20px
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+  {
+  margin: 0;
+  padding: 0
+}
+
+* {
+  box-sizing: border-box
+}
+
+.slider-container
+{
+  max-width: 1360px;
+  margin: 0 auto;
+  margin-top: 80px
+}
+
+.slider {
+  margin-left: 40px;
+}
+
+.slick-slide img {
+  max-width: 400px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #005bbb 50%, #ffd500 50%) 1 1
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1
+}
+
+.slick-dots li button:before {
+  opacity: 1;
+  color: #fff;
+  -webkit-text-stroke: 1px #005bbb
+}
+
+.menu{display: none}
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px
+}
+.menu-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #005bbb;
+  text-decoration: none
+}
+
+.menu-item:hover {
+  -webkit-text-stroke: .8px #ffd500
+}
+
+.container {
+  display: flex;
+  width: 403px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 81px
+}
+
+.textcolumn {
+  max-width: 1024px;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  line-height: 140%;
+  color: #005bbb;
+  margin: auto;
+  margin-top: 140px;
+  font-weight: 400
+}
+
+.holder {
+  display: flex;
+  max-width: 1024px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 80.5px
+}
+
+.line {
+  background: #005bbb;
+  width: 100%;
+  height: 1px
+}
+
+.line2 {
+  background: #005bbb;
+  width: 50%;
+  height: 1px
+}
+
+.header {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #005bbb;
+  margin: 16.5px 0 16.5px 0
+}
+
+.container2 {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 38.5px
+}
+
+.box, .box-mobile {
+  background: #005bbb;
+  border-left: 10px solid #ffd500;
+  padding: 40px;
+  padding-left: 30px;
+  color: #fff;
+  margin: 0 14px;
+  flex: 1;
+  display: flex
+}
+
+.box-mobile
+{
+  display: none
+}
+
+.holder2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38.5px;
+  border: 1px solid #005bbb;
+  max-width: 100%;
+  margin-bottom: 160px
+}
+
+.box p, .box-mobile p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 140%;
+  align-self: center;
+  font-weight: 300;
+  margin-top: 27px
+}
+
+input {
+  outline: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  border: 0;
+  margin: 49px 509px 49px 30px
+}
+
+input::placeholder {
+  color: #005bbb
+}
+
+input:focus::placeholder {
+  color: transparent
+}
+
+.btn, .btn-mobile, .btn-mobile2 {
+  color: #fff;
+  background: #005bbb;
+  border: 2px solid #fff;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 13px 56px;
+  cursor: pointer;
+  margin: 30px
+}
+
+.btn-mobile, .btn-mobile2 {
+  display: none
+}
+.burger{
+  display: none;
+}
+
+input[type="text"], textarea {
+
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5)
+
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1024px) and (min-width: 376px) {
+
+.menu{display: unset}
+
+  .burger {
+    display: unset
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 48px;
+    margin-left: 60px;
+  }
+
+  .textcolumn {
+    width: 88.28125%;
+    font-size: 24px;
+  }
+
+  .box {
+    background: #005bbb;
+    border-left: 10px solid #ffd500;
+    padding: 40px;
+    padding-left: 30px;
+    color: #fff;
+    margin-bottom: 28px;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+
+  .holder {
+    margin-top: 70.5px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .slider-container {
+    max-width: 920px;
+  }
+
+  .slick-slider {
+    visibility: 2;
+  }
+
+.menu-open {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -48px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.menu-close {
+  position: absolute;
+  cursor: pointer;
+  color: #fff;
+  top: 52.76px;
+  right: 65.26px;
+}
+.menu-close svg {
+  height: 37.48px;
+  width: 37.48px;
+}
+
+.menu-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 600px;
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition: 0.2s;
+  overflow-y: auto;
+  background: #005BBB;
+  z-index: 1;
+}
+
+.menu-opened .menu-content {
+  transform: none;
+  visibility: visible;
+}
+
+.container-tablet {
+  display: flex;
+  width: 403px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 121px
+}
+
+.menu-item-tablet {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none
+}
+
+.menu-item-tablet:hover {
+  -webkit-text-stroke: .8px #ffd500
+}
+
+.logo-tablet {
+  border-radius: 50%;
+  display: block;
+  margin-left: 60px;
+  margin-top: 48px;
+}
+
+.holder2-tablet {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38.5px;
+  border: 1px solid #fff;
+  width: 88.28125%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 160px;
+}
+
+input {
+  margin: 49px 379px 49px 30px
+}
+
+.btn-mobile, .btn-mobile2 {
+  display: none
+}
+
+.btn-tablet {
+  color: #005BBB;
+  border: 2px solid #fff;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 13px 56px;
+  cursor: pointer;
+  margin: 30px
+}
+
+.holder2-tablet input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+}
+
+@media only screen and (max-width: 375px) {
+
+.menu{display: unset}
+
+  .container
+  {
+    display: none
+  }
+
+  .burger {
+    display: unset
+  }
+
+  .menu-item {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+ .logo-tablet svg {
+  width: 54.4px;
+  height: 47.2px;
+}
+
+  .textcolumn {
+    width: 89.33333333333333%;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 80px;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .box-mobile
+  {
+    display: unset;
+    background: #005bbb;
+    border-left: 10px solid #ffd500;
+    padding-left: 20px;
+    color: #fff;
+    padding-top: 0;
+    margin-bottom: 24px
+  }
+
+  .box-mobile p
+  {
+    font-size: 16px;
+    line-height: 19.5px;
+    padding: 0
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+
+  .holder {
+    margin-top: 48px;
+    width: 88.28125%;
+  }
+
+  .slider-container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .slider
+  {
+    margin-left: 0
+  }
+
+  .slick-slider {
+    visibility: 2;
+  }
+
+
+.menu-open {
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 307px;
+  cursor: pointer;
+  z-index: 1
+}
+
+.menu-close {
+  position: absolute;
+  cursor: pointer;
+  color: #fff;
+  top: 24.76px;
+  left: calc(87% - 37.48px)
+}
+.menu-close svg {
+  height: 37.48px;
+  width: 37.48px;
+}
+.menu-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition: 0.2s;
+  overflow-y: auto;
+  background: #005BBB;
+  z-index: 1
+}
+
+.menu-opened .menu-content {
+  transform: none;
+  visibility: visible;
+}
+
+.container-tablet {
+  display: flex;
+  flex-direction: column;
+  width: 403px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navigation
+{
+  margin-top: 48px;
+  margin-left: 20px;
+}
+
+.menu-item-tablet {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none
+}
+
+.menu-item-tablet:hover {
+  -webkit-text-stroke: .8px #ffd500
+}
+
+.logo-tablet {
+  border-radius: 50%;
+  display: block;
+  margin-left: 20.8px;
+  margin-top: 24px;
+}
+
+.holder2-tablet {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38.5px;
+  border: 1px solid #fff;
+  margin-left: 20px;
+  max-width: 335px;
+}
+
+.btn-tablet {
+  display: none
+}
+
+.holder2 {
+  margin-bottom: 0px;
+}
+
+.holder2-tablet input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.holder2-tablet input {
+  margin: 20px auto 101px
+}
+
+.btn {
+  display: none;
+}
+
+.btn-mobile {
+  display: unset;
+  padding: 20px 106px;
+}
+
+.btn-mobile2 {
+  display: unset;
+  color: #005BBB;
+  border: 2px solid #fff;
+  font-family: 'Montserrat';
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 13px 124px;
+  cursor: pointer;
+  background: #fff;
+  margin: 20px
+}
+
+.burger
+{
+  display: none
+}
+
+.burger-mobile{}
+.slick-dots li
+{
+    margin: unset;
+}
+.slick-dots li button:before
+{
+    font-size: 8px;
+    line-height: 8px;
+    top: 24px;
+    width: 8x;
+    height: 8px;
+}
+}
